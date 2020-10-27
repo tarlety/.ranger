@@ -1,26 +1,30 @@
 ranger.conf
 ===
 
+## What is ranger.conf?
+
+- default configurations: vcs aware, console image preview
+- preflights for Ubuntu distro
+- colorscheme: default
+- plugins: autojump, devicons
+
 ## How to install
 
-1. Install ranger
-
-For example, on Ubuntu, run ```sudo apt install ranger```.
-
-2. git clone the repo to your ranger conf folder.
+1. Do git clone to your ranger conf folder.
 
 ```
-git clone --depth=1 https://github.com/tarlety/ranger.conf ~/.config/ranger
+$ git clone --depth=1 https://github.com/tarlety/ranger.conf ~/.config/ranger
 ```
 
-3. execute the preflight.sh to install dependency.
+2. Execute the preflight.sh to install ranger and dependencies.
 
 ```
-cd ~/.config/rander
-./preflight.sh
+$ cd ~/.config/rander
+$ ./preflight.sh
 ```
 
-## What's inside it
+3. Run ranger.
 
-to be continue...
-
+```
+$ ranger
+```
