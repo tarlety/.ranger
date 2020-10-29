@@ -6,6 +6,7 @@ ranger.conf
 - default configurations: vcs aware, console image preview
 - preflights for Ubuntu distro
 - colorscheme: default
+- preview image as asciicart
 - plugins: autojump, devicons
 
 ## How to install
