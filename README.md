@@ -42,15 +42,15 @@ $ ranger
 
 file operation:
 
-| Key | Actions                    |
-|-----|----------------------------|
-| cw  | Single or bulk rename.     |
-| dD  | Delete files or folders.   |
-| DD  | Delete to trashcan.        |
-| uD  | Undo delete from trashcan. |
-| Dl  | List trashcan.             |
-| m   | New file.                  |
-| M   | New folder and cd into.    |
+| Key   | Actions                    |
+|-------|----------------------------|
+| cw    | Single or bulk rename.     |
+| dD    | Delete files or folders.   |
+| DD    | Delete to trashcan.        |
+| uD    | Undo delete from trashcan. |
+| Dl    | List trashcan.             |
+| <c-n> | New file.                  |
+| M     | New folder and cd into.    |
 
 move motion:
 
@@ -85,6 +85,12 @@ misc:
 | X   | Quick edit configuration.     |
 | C   | Compress to zip file.         |
 | pC  | Extract yanked zip to here.   |
+
+## Backlogs
+
+- Better online status notation.
+- Network benchmark available.
+- `wttr.in` connection robustness improvement.
 
 ## Licence
 
