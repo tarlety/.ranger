@@ -1,11 +1,21 @@
 .ranger
 ===
 
-This is Ranger config files located at `~/.config/ranger`.
+This is my personal Ranger configurations located at `~/.config/ranger`.
 
-## What does .ranger provide
+<!-- vim-markdown-toc GFM -->
 
-- sensible defaults: vcs aware
+* [Sensible Configurations](#sensible-configurations)
+* [Screenshots](#screenshots)
+* [How to install](#how-to-install)
+* [Key Bindings](#key-bindings)
+* [Licence](#licence)
+
+<!-- vim-markdown-toc -->
+
+## Sensible Configurations
+
+- vcs aware by default
 - preflight dependencies (for Ubuntu distro)
 - colorscheme: default
 - preview image as asciiart
@@ -19,7 +29,7 @@ This is Ranger config files located at `~/.config/ranger`.
 
 ## How to install
 
-1. Do git clone to your ranger configure folder.
+1. Download to your ranger configure folder.
 
 ```
 $ git clone https://github.com/t16ing/.ranger ~/.config/ranger
@@ -42,40 +52,41 @@ $ ranger
 
 file operation:
 
-| Key | Actions                    |
-|-----|----------------------------|
-| cw  | Single or bulk rename.     |
-| dD  | Delete files or folders.   |
-| DD  | Delete to trashcan.        |
-| uD  | Undo delete from trashcan. |
-| Dl  | List trashcan.             |
-| m   | New file.                  |
-| M   | New folder and cd into.    |
+| Key     | Actions                    |
+|---------|----------------------------|
+| cw      | Single or bulk rename.     |
+| dD      | Delete files or folders.   |
+| DD      | Delete to trashcan.        |
+| uD      | Undo delete from trashcan. |
+| Dl      | List trashcan.             |
+| `<c-n>` | New file.                  |
+| M       | New folder and cd into.    |
 
-move motion:
+move between files and folders:
 
-| Key           | Actions                       |
-|---------------|-------------------------------|
-| J,K           | Half page down, up.           |
-| H,L           | History back, forward.        |
-| [,]           | Move between sibling folders. |
-| {,}           | Traverse between folders.     |
-| m + <letter>  | Mark.                         |
-| ' + <letter>  | Go to mark.                   |
-| um + <letter> | Delete mark.                  |
-| v             | Mark all files.               |
-| zf            | Filter displayed filename.    |
-| f             | Quick filter as you type.     |
-| F             | `fzf` integration.            |
+| Key          | Actions                       |
+|--------------|-------------------------------|
+| J K          | Half page down, up.           |
+| H L          | History back, forward.        |
+| [ ]          | Move between sibling folders. |
+| { }          | Traverse between folders.     |
+| m`<letter>`  | Mark.                         |
+| '`<letter>`  | Go to mark.                   |
+| um`<letter>` | Delete mark.                  |
+| v            | Mark all files.               |
+| uv           | Unmark all.                   |
+| zf           | Filter displayed filename.    |
+| f            | Quick filter as you type.     |
+| F            | `fzf` integration.            |
 
-tab motion:
+tab:
 
-| Key   | Actions            |
-|-------|--------------------|
-| q     | Close a tab.       |
-| gt    | New tab.           |
-| gn,gp | Next/previous tab. |
-| g1~9  | Go to tab n.       |
+| Key   | Actions               |
+|-------|-----------------------|
+| q     | Close a tab.          |
+| gt    | New tab.              |
+| gn,gp | Next or previous tab. |
+| g1~9  | Go to tab n.          |
 
 misc:
 
