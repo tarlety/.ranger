@@ -9,7 +9,6 @@ This is my personal Ranger configurations located at `~/.config/ranger`.
 * [Screenshots](#screenshots)
 * [How to install](#how-to-install)
 * [Key Bindings](#key-bindings)
-* [Backlogs](#backlogs)
 * [Licence](#licence)
 
 <!-- vim-markdown-toc -->
@@ -97,12 +96,6 @@ misc:
 | X   | Quick edit configuration.     |
 | C   | Compress to zip file.         |
 | pC  | Extract yanked zip to here.   |
-
-## Backlogs
-
-- Better online status notation.
-- Network benchmark available.
-- `wttr.in` connection robustness improvement.
 
 ## Licence
 
